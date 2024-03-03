@@ -1,0 +1,100 @@
+/* Reset CSS */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    list-style-position:inherit;
+    line-break: strict;
+    line-height: 4.0;
+    background-image: url("https://www.enviroindia.in/blog/wp-content/uploads/2016/11/Benefits-of-Property-Maintenance-Services.jpg");
+    background-position: center;
+    background-size: 2000px;
+    backface-visibility:inherit;
+    text-align: left;
+
+    
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+}
+
+header {
+    background: lightyellow;
+    color:black;
+    align-content: center;
+    line-height: normal;
+    font: size:60px;
+
+    
+   
+}
+
+header h1 {
+    float: center;
+    font-style: oblique;
+    font-size:100px;
+    font-display:initial;
+    color: darkgreen;
+    text-align: center;
+}
+
+nav ul {
+    float: right;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+  
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 35px;
+}
+
+.btn {
+    display: inline-block;
+    background: #fffefe;
+    color: #eae2e2;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #e6e6e6;
+}
+
+footer {
+    background: #e2dddd;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+
+
+    flex-shrink: 50p;
+}
+
